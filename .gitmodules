@@ -1,0 +1,3 @@
+[submodule "real-time-edge-servo"]
+	path = real-time-edge-servo
+	url = https://github.com/nxp-real-time-edge-sw/real-time-edge-servo
