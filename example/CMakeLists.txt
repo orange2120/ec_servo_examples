@@ -8,6 +8,6 @@ include_directories (
 )
 
 foreach (ex ${EXAMPLE_BINARIES})
-	add_executable(${ex} ${ex}.c)
-	target_link_libraries(${ex} PUBLIC ${TARGET_LIBS})
+    add_executable(${ex} ${ex}.c)
+    target_link_libraries(${ex} PUBLIC ${TARGET_LIBS})
 endforeach()
